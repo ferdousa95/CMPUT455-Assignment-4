@@ -3,7 +3,7 @@ import pexpect
 #player2='assignment3/Gomoku3.py'
 #player2='flat_mc_player/Gomoku3.py'
 #player2='sim10/Gomoku4.py'
-player1='gomoku4/Gomoku4.py'
+player1='survivors/Gomoku4.py'
 player2='random_player/Gomoku2.py'
 
 win1=0
@@ -119,7 +119,7 @@ def saveResult():
     f.write("draw {}\n".format(draw))
     f.close()
 
-playGames()
+playGames(1)
 outputResult()
 saveResult()
 
